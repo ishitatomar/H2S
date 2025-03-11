@@ -23,7 +23,7 @@ body
     background-color: black; /* Ensure solid black background */
     display:flex;
     align-items: center;
-    padding: 0 6px;
+    padding: 0 150px;
 }
 h1{
     color:black;
