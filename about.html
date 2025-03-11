@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Aid for Students</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        #hero {
+            background-color: #9DC183;
+            text-align: center;
+            padding: 80px 20px;
+        }
+#content-wrapper {
+            background-image: url('about_bg.png'); /* Replace with your image path */
+            background-size: cover; /* Or 'contain', '100% 100%', etc. */
+            background-repeat: no-repeat;
+            background-position: center;
+            /*Optional, adds a slight opacity to the background image*/
+            background-blend-mode: multiply;
+        }
+        #content-wrapper div{
+            background-color: rgba(255,255,255,0.7); /*optional, makes the content have a semi transparent white background*/
+            padding: 20px;
+        }
+        #hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        #hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #006400; 
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .cta-button:hover {
+            background-color: #004000; /* Darker green */
+        }
+        #how-it-works, #why-us, #faq {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .step {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .step img,.step video {
+        width: 200px;
+        height: 150px;
+        margin-bottom: 10px;
+        border: 1px solid #006400; 
+        border-radius: 3px; 
+	
+    }
+	.video-container {
+            display: flex;
+            justify-content: center; /* Center videos horizontally */
+            align-items: center; /* Center videos vertically */
+            flex-wrap: wrap; /* Allow videos to wrap on smaller screens */
+        }
+        .video-container video {
+            margin: 0 10px 10px; /* Add some spacing between videos */
+        }
+	.video-labels {
+   		 display: flex;
+    		justify-content: center;
+    		margin-top: 5px; 
+		}
+
+	.video-labels h4 {
+    		margin: 0 70px; 
+	}
+#faq {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#faq h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.question h3 {
+    margin-top: 0;
+}
+
+.question ul, .question ol {
+    margin-left: 20px;
+}
+
+.question li {
+    margin-bottom: 5px;
+}
+        footer {
+            background-color:  #9DC183;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="hero">
+        <h1>Unlock Your Educational Dreams: Financial Aid Made Simple.</h1>
+        <p>We connect students with scholarships, grants, and resources to make higher education accessible.</p>
+        <a href="#how-it-works" class="cta-button">Find My Aid Options</a>
+    </div>
+
+    <div id="how-it-works">
+        <h2>How It Works</h2>
+        <div class="step">
+            <img src="create_account.png" alt="Create an Account"> <h3>Create an Account</h3>
+            <p>Sign up and tell us about your educational goals.</p>
+        </div>
+       <div class="step">
+    <div class="video-container">
+        <video src="student.mp4"  autoplay muted loop controls alt="Complete Your Profile Video (Student)"></video>
+        <video src="donor.mp4"  autoplay muted loop controls alt="Complete Your Profile Video (Donor)"></video>
+    </div>
+    <div class="video-labels">
+        <h4>For student     </h4>
+	<h4>For donor</h4>
+    </div>
+    <h3>Complete Your Profile</h3>
+    <p>Provide information for personalized aid options.</p>
+</div>
+        <div class="step">
+            <img src="aid_options.png" alt="Discover Aid Options"> <h3>Discover Aid Options</h3>
+            <p>Find scholarships and grants that match your criteria.</p>
+        </div>
+        <div class="step">
+            <video src="apply.mp4"  autoplay muted loop controls alt="Apply and receive"></video><h3>Apply and Receive Funding</h3>
+            <p>Submit your applications and fund your education.</p>
+        </div>
+    </div>
+
+    <div id="why-us">
+        <h2>Why Choose Us?</h2>
+        <p align="justify">Our extensive database is meticulously curated, providing you with access to thousands of scholarships, grants, and funding opportunities, ensuring no stone is left unturned in your search for financial aid. With us, you gain a trusted partner committed to your educational success, providing not just information, but the personalized support and streamlined experience that transforms aspirations into reality.</p>
+    </div>
+
+    <div id="faq">
+	<h2>FAQ</h2>
+        <div class="question">
+        <h3>Who is eligible for financial aid?</h3>
+        <p>Eligibility for financial aid varies depending on the type of aid (scholarships, grants, loans) and the specific program. Generally, eligibility is based on factors such as:</p>
+        <ul>
+            <li>Financial need (determined by FAFSA or similar forms)</li>
+            <li>Academic standing</li>
+            <li>Enrollment status (full-time, part-time)</li>
+            <li>Citizenship or eligible non-citizen status</li>
+            <li>Specific program requirements (e.g., major, location)</li>
+        </ul>
+        <p>It's best to check the specific eligibility requirements for each financial aid program you are interested in.</p>
+    </div>
+
+    <div class="question">
+        <h3>How do I apply for financial aid?</h3>
+        <p>The application process for financial aid typically involves these steps:</p>
+        <ol>
+            <li><strong>Complete the Free Application for Federal Student Aid (FAFSA):</strong> This is the most common form for federal and state aid.</li>
+            <li><strong>Create an account on our platform:</strong> If you are using our platform, register and complete your profile.</li>
+            <li><strong>Gather necessary documents:</strong> Collect required documents such as tax returns, W-2 forms, and student identification.</li>
+            <li><strong>Submit applications:</strong> Submit your FAFSA and any other required applications by the deadlines.</li>
+            <li><strong>Review award letters:</strong> Once processed, you'll receive award letters from schools or aid providers detailing your financial aid package.</li>
+            <li><strong>Accept or decline aid:</strong> Decide which aid you want to accept and complete any necessary paperwork.</li>
+        </ol>
+        <p>Always adhere to deadlines and provide accurate information to ensure a smooth application process.</p>
+    </div>
+    </div>
+
+    <footer>
+        <p>&copy; Financial Aid for Students</p>
+    </footer>
+
+</body>
+</html>
