@@ -1,0 +1,110 @@
+/* General Styling */
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #04211b;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("https://img.freepik.com/free-vector/luxury-dark-green-background-modern-abstract-3d_343694-3031.jpg?t=st=1679674067~exp=1679674667~hmac=d52835d494b01d443e7aa107715e0e2a71676f309cb836114604b8fa11b87b8e");
+    background-size: auto;
+    background-attachment: fixed; /* Keeps image fixed when scrolling */
+    border:6px solid black;
+
+}
+h4{
+    text-align: center;
+}
+.contact-section {
+    color:black;
+    background-color: #cbeae4;
+    border:5px solid black;
+    padding: 40px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 12px;
+    left:120px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+.contact-section h2 {
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+#contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#contactForm button {
+    background-color: #153516;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#contactForm button:hover {
+    background-color: #062007;
+}
+
+#formMessage {
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(3, 16, 3);
+}
+
+/* Contact Info */
+.contact-info {
+    margin-top: 20px;
+    color:black;
+}
+
+.contact-info h3 {
+    font-size: 22px;
+    color: black;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #555;
+}
+
+.contact-info a {
+    color: #007BFF;
+    text-decoration: none;
+}
+/* Social Links */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links h3 {
+    font-size: 22px;
+    color: black;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 18px;
+}
