@@ -1,0 +1,80 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    color: rgb(245, 242, 242);
+}
+
+/* Apply background image only to the body */
+body 
+{
+    background-image: url("https://www.vsu.edu/files/images/heroes/financial_aid_bank_banner_photo_hero.jpg");
+    background-size: cover; /* Ensures it covers the whole screen */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps image fixed when scrolling */
+}
+
+#logo {
+    background-color: black;
+}
+
+#navbar {
+    height: 70px;
+    background-color: black; /* Ensure solid black background */
+    display:flex;
+    align-items: center;
+    padding: 0 6px;
+}
+h1{
+    color:black;
+    position:absolute;
+    left:750px;
+    top:200px;
+}
+button {
+    background-color:rgb(31, 44, 31);
+    border:none;
+    color: rgb(234, 230, 230);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px; /* Larger font size */
+    text-align: center;
+}
+
+a {
+    margin-right: 150px;
+    text-decoration: none;
+}
+#donor
+{
+    background-color:rgb(31, 44, 31);
+    color:black;
+    border:5px solid black;
+    height: 50px;
+    width: 70px;
+    padding: 20px 40px;
+    border-radius: 12px; /* Rounded corners */
+    cursor: pointer;
+    position: absolute; /* Use absolute positioning */
+    left: 870px; /* Move the box 1000px from the left */
+    top: 450px; /* Move the box 500px down from the top */
+}
+
+#student {
+    background-color:rgb(31, 44, 31); /* Background color for the button */
+    color: rgb(15, 15, 15); /* Text color */
+    border:5px solid black;
+    padding: 20px 40px; /* Large padding to make the button bigger */
+    border-radius: 12px; /* Rounded corners */
+    cursor: pointer;
+    height: 50px;
+    width: 70px;
+    position: absolute; /* Use absolute positioning */
+    left: 1050px; /* Move the box 1000px from the left */
+    top: 450px; /* Move the box 500px down from the top */
+}
+#quote{
+    color:black;
+    position: absolute;
+    left:750px;
+    top:250px;
+}
