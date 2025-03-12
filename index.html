@@ -1,34 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LearnEd</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-   <div id="navbar">
-        <a id="logo">LearnEd.in</a>
-	 <a href="webpage.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-        <a href="contact.html">Contact</a>
-        <a href="login.html">Login</a>
-    </div>
-	<h1>Welcome to LearnEd!</h1>
-    <a href="donor.html" class="button">
-    <div id="donor">
-       Register as a Donor
-    </div></a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation Bar with Search Box</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+   <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav class="nav">
+      <i class="uil uil-bars navOpenBtn"></i>
+      <a href="#" class="logo">LearnEd</a>
+      <ul class="nav-links">
+        <i class="uil uil-times navCloseBtn"></i>
+        <li><a href="#">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+      <i class="uil uil-search search-icon" id="searchIcon"></i>
+      <div class="search-box">
+        <i class="uil uil-search search-icon"></i>
+        <input type="text" placeholder="Search here..." />
+      </div>
+    </nav>
 
-    <a href="student.html" class="button">
-    <div id="student">
-         Register as a Student
-    </div></a>
-    <h4 id="quote">
-        Learning through difficult situations is one of the most powerful ways to grow and improve.When facing challenges, it's easy to feel discouraged, 
-        but it’s during these times that we gain the most valuable lesson.<br>Thus here is LearnEd providing you the best way to learn and educate in the easiest way possible.<br>
-        <br>"It always seems impossible until it's done." <br>– Nelson Mandela
-    </h4>
-</body>
+    <section class="home" id="home">
+      <div class="content">
+        <h3>LearnEd</h3>
+        <p>Empowering Dreams, Unlocking Opportunities!</p>
+        <div class="buttons">
+            <a href="student.html"><button>Register as a Student</button></a>
+            <a href="donor.html"><button>Register as a Donor</button></a>
+          </div>
+        
+      </div>
+
+        <div class="image">
+            <img src="https://www.shutterstock.com/image-photo/photo-diligent-nice-schoolboy-brown-600nw-2349043101.jpg" alt="" />
+        </div>
+    </section>
+
+  </body>
 </html>
