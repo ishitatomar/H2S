@@ -46,11 +46,12 @@ a {
 #donor
 {
     background-color:rgb(31, 44, 31);
-    color:black;
+    color:white;
     border:5px solid black;
     height: 50px;
     width: 70px;
-    padding: 20px 40px;
+    font-size: large;
+    padding: 10px 20px 20px 20px; /* Large padding to make the button bigger */
     border-radius: 12px; /* Rounded corners */
     cursor: pointer;
     position: absolute; /* Use absolute positioning */
@@ -65,6 +66,8 @@ a {
     padding: 20px 40px; /* Large padding to make the button bigger */
     border-radius: 12px; /* Rounded corners */
     cursor: pointer;
+    padding: 10px 20px 20px 20px; /* Large padding to make the button bigger */
+    color: white;
     height: 50px;
     width: 70px;
     position: absolute; /* Use absolute positioning */
