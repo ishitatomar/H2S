@@ -5,9 +5,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url("https://img.freepik.com/free-vector/luxury-dark-green-background-modern-abstract-3d_343694-3031.jpg?t=st=1679674067~exp=1679674667~hmac=d52835d494b01d443e7aa107715e0e2a71676f309cb836114604b8fa11b87b8e");
-    background-size: auto;
-    background-attachment: fixed; /* Keeps image fixed when scrolling */
+    background-image: linear-gradient(to right,);
     border:6px solid black;
 
 }
